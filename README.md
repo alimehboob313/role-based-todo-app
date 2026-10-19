@@ -37,3 +37,14 @@ A full-stack task manager with separate User and Admin roles.
     npm run dev
 
 Open http://localhost:5173.
+
+## Screenshots
+
+### Login
+![Login](docs/screenshots/login.png)
+
+### User dashboard
+![User dashboard](docs/screenshots/user-dashboard.png)
+
+### Admin dashboard
+![Admin dashboard](docs/screenshots/admin-dashboard.png)
