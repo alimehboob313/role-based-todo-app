@@ -1,0 +1,54 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: #f4f6f8;
+  color: #1f2933;
+}
+.container { max-width: 960px; margin: 0 auto; padding: 24px 16px; }
+.center { text-align: center; margin-top: 60px; }
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.auth-card { max-width: 380px; margin: 60px auto; }
+.topbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+label { display: block; font-size: 14px; margin: 10px 0 4px; }
+input, select, textarea {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #cbd2d9;
+  border-radius: 6px;
+  font: inherit;
+}
+.row input, .row select { width: auto; flex: 1; min-width: 120px; }
+button {
+  padding: 8px 14px;
+  border: 0;
+  border-radius: 6px;
+  background: #2563eb;
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+}
+button:hover { background: #1d4ed8; }
+button:disabled { opacity: 0.6; cursor: not-allowed; }
+button.secondary { background: #e4e7eb; color: #1f2933; }
+button.danger { background: #dc2626; }
+button.small { padding: 4px 10px; font-size: 13px; }
+.error { background: #fde8e8; color: #9b1c1c; padding: 10px; border-radius: 6px; margin: 10px 0; }
+.success { background: #e3f9e5; color: #1b5e20; padding: 10px; border-radius: 6px; margin: 10px 0; }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: 8px; border-bottom: 1px solid #e4e7eb; font-size: 14px; vertical-align: top; }
+.badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 12px; background: #e4e7eb; }
+.badge.high { background: #fde8e8; color: #9b1c1c; }
+.badge.medium { background: #fef3c7; color: #92400e; }
+.badge.low { background: #e0f2fe; color: #075985; }
+.badge.done { background: #e3f9e5; color: #1b5e20; }
+.badge.inactive { background: #fde8e8; color: #9b1c1c; }
+.muted { color: #6b7280; font-size: 13px; }
+.pager { display: flex; gap: 12px; align-items: center; justify-content: center; margin-top: 12px; }
